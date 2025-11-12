@@ -1,0 +1,18 @@
+li { list-style-type: none;}
+.icones-sociais a {
+width: 40px;
+height: 40px;
+display: block;
+text-indent: -99999px;
+}
+.github {
+background-image: url("imagens/github.png");
+}
+
+.twitter {
+    background-image: url("imagens/twitter.png");
+}
+
+.linkedin {
+    background-image: url("imagens/linkedin.png");
+}

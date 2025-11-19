@@ -4,9 +4,11 @@ width: 40px;
 height: 40px;
 display: block;
 text-indent: -99999px;
+background-color: black;
 }
 .github {
 background-image: url("imagens/github.png");
+
 }
 
 .twitter {
@@ -15,4 +17,23 @@ background-image: url("imagens/github.png");
 
 .linkedin {
     background-image: url("imagens/linkedin.png");
+}
+
+.modo-escuro {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: rgb(76, 130 163);
+    
+}
+
+a:hover, a:active {
+    background-color: rgb(76, 130 163);
+    color: white;
 }
